@@ -123,6 +123,8 @@ text-decoration-thickness:7px;
   position: absolute;
   left:900px;
   top:420px;
+ 
+
 }
 .orbitRing {
 
@@ -143,17 +145,17 @@ animation:spin 20s linear infinite ;
   width: 350px;
   height:350px;
 
- 
+
 }
 
 .innerRing{
 
   transform: translate(-50%,-50%);
-  animation: none !important;
+
   padding-left:35px;
   padding-top:35px;
-  width: 270px;
-  height:270px;
+  width: 280px;
+  height:280px;
 }
 @keyframes spin {
   from{
@@ -202,6 +204,40 @@ animation:spin 20s linear infinite ;
 
 
 
+.C{
+  border:1px solid black;
+  padding:10px;
+  border-radius:36px;
+ 
 
+}
 
+.M{
+    border:1px solid black;
+  padding:10px;
+  border-radius:36px;
+}
 
+.N{
+    border:1px solid black;
+  padding:10px;
+  border-radius:36px;
+}
+
+.S{
+    border:1px solid black;
+  padding:10px;
+  border-radius:36px;
+}
+
+.Sh{
+   border:1px solid black;
+  padding:10px;
+  border-radius:36px;
+}
+
+.D{
+    border:1px solid black;
+  padding:10px;
+  border-radius:36px;
+}
