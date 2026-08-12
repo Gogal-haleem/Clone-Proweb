@@ -14,6 +14,10 @@ export default function HeroContent(){
         <br></br> <span>IT, and cyber security services tailored to fit your business</span>
         <br></br>perfectly, plus the digital tools you need to grow.
       </p>
+      <div className="div-links">
+         <a className="link-Talk-to-expert" href="">Talk to an expert today →</a>
+         <a className="link-Explore-Services" href="">Explore services</a>
+      </div>
       </div>
     </div>
 }
