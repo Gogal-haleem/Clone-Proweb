@@ -429,7 +429,7 @@ word-spacing:10px;
 padding-top:300px;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  
   width:100%;
   animation: scroll 16s linear infinite;
 
@@ -557,4 +557,72 @@ margin: 0 auto;
  padding-right:350px;
 
 
+}
+
+.sectionFour{
+  position: relative;
+  top:190px;
+  left:100px;
+}
+
+.Name{
+  position: relative;
+  text-transform: uppercase;
+  top:30px;
+  color: rgb(24, 74, 161);
+}
+
+.heading-client{
+ 
+  width:500px;
+  font-size:3.3rem;
+  font-weight: 600;
+}
+
+.Our-moto{
+  position: relative;
+  top:-100px;
+  left:650px;
+  width:500px;
+  font-size:1.2rem;
+  color: rgb(118, 117, 117);
+}
+
+.Client-websites{
+  position: relative;
+ top:200px;
+
+width: 200%;
+  display: flex;
+  align-items: center;
+  gap:200px;
+  animation: scrollRight 10s linear infinite;
+
+}
+
+
+
+
+.Client-websites2{
+    position: relative;
+    width:200%;
+ top:400px;
+
+
+  display: flex;
+  align-items: center;
+  gap:200px;
+  animation:scrollLeft 10s linear infinite;
+ 
+}
+
+@keyframes scrollRight{
+  from{transform: translateX(-50%);}
+  to{transform: translateX(0);}
+}
+
+
+@keyframes scrollLeft{
+  from{transform: translateX(0);}
+  to{transform: translateX(-50%);}
 }

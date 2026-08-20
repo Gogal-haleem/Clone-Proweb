@@ -33,8 +33,16 @@ import NetworkIcon from "./components/NetworkIcon.png"
 import Professional from "./components/Professional.png"
 import ProfessionalIcon from "./components/ProfessionalIcon.png"
 
+
 import New from "./components/new"
 
+import Client from "./components/Client"
+
+import data3 from "./components/data3"
+import ClientLogos from "./components/Client-Logos"
+
+import data4 from "./components/data4"
+import ClientLogos2 from "./components/Client-logos2"
 export default function App(){
 
   return <div className="All">
@@ -127,8 +135,32 @@ return < Static
   />
 </div>
 
+<Client/>
+
+<div className="Client-websites2">
+{
+  data4.map((entry)=>{
+ return <ClientLogos
+   key={entry}
+   {...entry}
+   />
+  })
+
+}
+</div>
 
 
+<div className="Client-websites">
+{
+  data3.map((entry)=>{
+ return <ClientLogos2
+   key={entry}
+   {...entry}
+   />
+  })
+
+}
+</div>
 </div>
 }
 
