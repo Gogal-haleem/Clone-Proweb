@@ -43,6 +43,10 @@ import ClientLogos from "./components/Client-Logos"
 
 import data4 from "./components/data4"
 import ClientLogos2 from "./components/Client-logos2"
+
+import Explore from "./components/expolre"
+
+import Help from "./components/How-we-can-help"
 export default function App(){
 
   return <div className="All">
@@ -161,7 +165,11 @@ return < Static
 
 }
 </div>
-</div>
+
+ <Explore />
+
+  <Help/>
+ </div>
 }
 
 

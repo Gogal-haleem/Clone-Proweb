@@ -626,3 +626,134 @@ width: 200%;
   from{transform: translateX(0);}
   to{transform: translateX(-50%);}
 }
+
+.Explore{
+  position: relative;
+  background-color:whitesmoke ;
+  top:480px;
+  width:1100px;
+  border-radius:10px;
+  left:85px;
+  height:100px;
+}
+
+.Explore-link{
+  background-color: rgba(20, 32, 69, 0.904);
+  width:180px;
+  padding:14px;
+  border-radius:25px;
+  text-decoration: none;
+  color:white;
+  position: relative;
+  top:-68px;
+  left:880px;
+}
+
+.Explore-paragraph{
+
+position: relative;
+top:-36px;
+font-size: 0.9rem;
+font-weight: 300;
+left:110px;
+}
+
+.Explore-logo{
+  position: relative;
+  top:20px;
+  left:35px;
+}
+
+.help-section{
+  position: relative;
+  top:650px;
+  left:95px;
+}
+
+.help-p1{
+  font-size:0.9rem;
+  text-transform:uppercase ;
+  word-spacing:0.2rem;
+  color: rgba(15, 43, 120, 0.904);
+}
+
+.help-h1{
+  font-size:3rem;
+}
+
+.help-p2{
+font-size:1.2rem;
+  color:rgb(130, 128, 128);
+}
+
+.help-a{
+  text-decoration: none;
+  position: relative;
+  top:15px;
+  color: rgba(15, 43, 120, 0.904);
+}
+
+.Help-card-container{
+  position: relative;
+display: flex;
+flex-wrap: wrap;
+top:800px;
+gap:30px;
+
+}
+
+.Section-help-areas{
+  border: 1px solid #ccc;
+ position: relative;
+ left:100px;
+  background: white;
+  width:1100px;
+  height:230px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  border-radius:13px;
+  overflow: hidden;
+
+}
+
+.Text-content{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  flex:1;
+  padding: 0 30px;;
+}
+
+.Card-image{
+height:100%;
+width:300px;
+object-fit: cover;
+}
+
+.card-p{
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+ 
+}
+.card-h3{
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.card-link{
+ width:130px;
+ height:130px;
+ border-radius: 80px;
+
+ padding: 40px;
+}
+
+
+
+.Section-help-areas:hover{
+cursor: pointer;
+border: 1px solid lightblue;
+}
+
