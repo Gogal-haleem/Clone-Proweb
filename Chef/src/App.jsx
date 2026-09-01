@@ -12,6 +12,8 @@ import data2 from "./components/data2"
 import Partners from "./components/partners"
 import Item from "./components/item"
 
+import TechnologyPartners from "./components/YourDigitalTechnologyPartner"
+
 import Education from "./components/Education.png"
 import EduIcon from "./components/EduIcon.png"
 
@@ -57,7 +59,7 @@ export default function App(){
 
    {data.map((entry,index)=>{
     return <Logos
-
+      key={index}
         {...entry}
         className={`logo-${index}`}
         />
@@ -143,10 +145,12 @@ return < Static
 
 <div className="Client-websites2">
 {
-  data4.map((entry)=>{
+  data4.map((entry1,index)=>{
+
  return <ClientLogos
-   key={entry}
-   {...entry}
+
+   key={index}
+   {...entry1}
    />
   })
 
@@ -156,9 +160,9 @@ return < Static
 
 <div className="Client-websites">
 {
-  data3.map((entry)=>{
+  data3.map((entry,index)=>{
  return <ClientLogos2
-   key={entry}
+   key={index}
    {...entry}
    />
   })
@@ -169,6 +173,8 @@ return < Static
  <Explore />
 
   <Help/>
+
+  <TechnologyPartners/>
  </div>
 }
 

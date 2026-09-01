@@ -757,3 +757,78 @@ cursor: pointer;
 border: 1px solid lightblue;
 }
 
+.SectionTechnologyPartner{
+  position: relative;
+  top:900px;
+ padding-left:95px;
+ padding-top:100px;
+  width: 100%;
+  padding-bottom: 150px;
+background: radial-gradient(circle at 20% 0%, #1A2440 0%,#0B1120)
+}
+
+.TechnologyPartenerp1{
+  color:#36c3c0;
+  text-transform: uppercase;
+}
+
+.TechnologyPartenerh1{
+color:#FFFFFF;
+width: 530px;
+font-size:3.1rem;
+
+}
+
+.TechnologyPartenerp2{
+color: #9CA3AF;
+font-size: 1.2rem;
+width: 700px;
+}
+
+.TechnologyPartenerp3{
+color: #9CA3AF;
+font-size: 1.2rem;
+}
+
+.TechLink{
+  position: relative;
+  top:820px;
+  left:500px;
+
+  text-decoration: none;
+  color: #0B1120;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+.WraperTech{
+display: grid;
+grid-template-columns: repeat(3 ,1fr);
+}
+
+
+
+.Information{
+  position: relative;
+
+   border: 1px solid  #9CA3AF ;
+  width:330px;
+  flex-direction: row;
+   padding: 20px;
+   margin: 23px 0;
+   border-radius: 10px;
+  background-color: #1A2440;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Information>h1{
+  color:#FFFFFF;
+}
+
+.Information>p{
+  color: #9CA3AF;
+}
