@@ -1,3 +1,6 @@
+import {Routes,Route} from "react-router-dom"
+
+
 import "./index.css"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
@@ -12,7 +15,14 @@ import data2 from "./components/data2"
 import Partners from "./components/partners"
 import Item from "./components/item"
 
+
 import TechnologyPartners from "./components/YourDigitalTechnologyPartner"
+import Care from "./components/CareAbout"
+import OurCoustomer from "./components/OurCoustomer"
+import Consultation from "./components/Consultation"
+import LastSection  from "./components/LastSection"
+import Contact from "./components/Contact"
+import Services from "./components/Services"
 
 import Education from "./components/Education.png"
 import EduIcon from "./components/EduIcon.png"
@@ -49,9 +59,16 @@ import ClientLogos2 from "./components/Client-logos2"
 import Explore from "./components/expolre"
 
 import Help from "./components/How-we-can-help"
+
+
+
 export default function App(){
 
-  return <div className="All">
+  return <Routes>
+  <Route
+  path="/"
+  element={
+  <div className="All">
   <Header/>
    <Hero/>
    <HeroContent/>
@@ -175,7 +192,31 @@ return < Static
   <Help/>
 
   <TechnologyPartners/>
+
+  <Care/>
+
+  <OurCoustomer/>
+  <Consultation/>
+
+<LastSection/>
  </div>
+  }
+ />
+
+ <Route
+ path="/Contact"
+ element={
+  <Contact/>
+ }
+ />
+
+ <Route
+  path="/Services"
+  element={
+    <Services/>
+  }
+  />
+ </Routes>
 }
 
 
