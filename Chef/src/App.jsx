@@ -23,6 +23,34 @@ import Consultation from "./components/Consultation"
 import LastSection  from "./components/LastSection"
 import Contact from "./components/Contact"
 import Services from "./components/Services"
+import ManagedIT  from "./components/Managed IT Services"
+import ManagrdInfrastructure from "./components/Managed-Infrastructure"
+import CloudServices from "./components/Cloud-Services"
+import CyberSecurity from "./components/Cyber-Security"
+import NetworkServices from "./components/Network-Services"
+import AiStrategy from "./components/Ai Strategy & Readlines"
+import IntelligentAssistants from "./components/Intelligent Assistants"
+import AiIntegration from "./components/Ai Integration"
+import WorkflowAutomation from "./components/Workflow-Automation"
+import DataAndSystemIntegration from "./components/DataAndSystemIntegration"
+import WebDesignAndDevolpment from "./components/WebDesignAndDevolpment"
+import WebsiteManagement from "./components/WebsiteManagment"
+import EmailMarketing from "./components/EmailMarketing"
+import SEOContent from "./components/SEO&Content"
+import SocialMediaManagment from "./components/SocialMediaManagment"
+import DigitalPresenceAndMarketing from "./components/DigitalPresenceAndMarketing"
+
+import ITSupport from "./components/ITSupport "
+import ApplicationManagement from "./components/Application Management"
+import DataCenter from "./components/Data Center"
+import ServerManagement from "./components/Server Management"
+import CloudService from "./components/Cloud Service"
+import BackupDisasterRecovery from "./components/Backup & Disaster Recovery"
+import Salesforce from "./components/Salesforce"
+import CRMandERP from "./components/CRM and ERP"
+import Dynamic365 from "./components/Dynamic365"
+import Microsoft365 from "./components/Microsoft365"
+import CaseStudies from "./components/CaseStudies"
 
 import Education from "./components/Education.png"
 import EduIcon from "./components/EduIcon.png"
@@ -216,6 +244,230 @@ return < Static
     <Services/>
   }
   />
+
+
+  <Route
+
+  path="/Managed IT Services"
+
+  element={
+    <ManagedIT/>
+  }
+  />
+
+  <Route
+   path="Managed-Infrastructure"
+   element={
+    <ManagrdInfrastructure/>
+   }
+  />
+<Route
+  path="Cloud-Services"
+
+  element={
+    <CloudServices/>
+  }
+  
+  />
+  
+  <Route
+   path="Cyber-Security"
+
+   element={
+
+    <CyberSecurity/>
+    
+   }
+  />
+   
+
+   <Route
+   path="Network-Services"
+
+   element={
+    <NetworkServices/>
+   }
+   />
+
+   <Route
+   
+   path="Ai Strategy & Readlines"
+
+   element={
+    <AiStrategy/>
+   }
+   
+   />
+
+   <Route
+   path="Intelligent Assistants"
+   element={
+    <IntelligentAssistants/>
+   }
+   />
+   
+   <Route
+   
+   path="Ai Integration"
+
+   element={
+    <AiIntegration/>
+   }
+   
+   />
+
+   <Route
+   path="Workflow-Automation"
+
+   element={
+    <WorkflowAutomation/>
+   }
+   />
+
+ <Route
+ path="DataAndSystemIntegration"
+ 
+ element={
+  <DataAndSystemIntegration/>
+ }
+
+ />
+
+ <Route
+ path="WebDesignAndDevolpment"
+
+ element={
+  <WebDesignAndDevolpment/>
+ }
+ />
+
+<Route
+path="WebsiteManagment"
+element={
+<WebsiteManagement/>
+}
+/>
+
+
+<Route
+path="EmailMarketing"
+
+element={
+<EmailMarketing/>
+}
+
+/>
+
+<Route
+path="SEO&Content"
+
+element={
+ <SEOContent/> 
+}
+/>
+
+<Route
+path="SocialMediaManagment"
+element={
+  <SocialMediaManagment/>
+}
+/>
+
+<Route
+path="DigitalPresenceAndMarketing"
+
+element={
+  <DigitalPresenceAndMarketing/>
+}
+/>
+
+<Route
+path="ITSupport"
+element={
+<ITSupport/>
+}
+/>
+
+<Route
+path="Application Management"
+
+element={
+  <ApplicationManagement/>
+}
+/>
+
+<Route
+path="Data Center"
+element={
+  <DataCenter/>
+  
+  
+}
+/>
+
+<Route
+path="Server Management"
+element={
+  <ServerManagement/>
+}
+/>
+
+<Route
+path="Cloud Service"
+
+element={
+  <CloudService/>
+}
+/>
+
+<Route
+path="Backup & Disaster Recovery"
+
+element={
+  <BackupDisasterRecovery/>
+}
+
+/>
+
+<Route
+path="Salesforce"
+element={
+  <Salesforce/>
+}
+/>
+
+
+<Route
+path="CRM and ERP"
+
+element={
+  <CRMandERP/>
+}
+/>
+
+<Route
+path="Dynamic365"
+
+element={
+  <Dynamic365/>
+}
+/>
+
+<Route
+path="Microsoft365"
+
+element={
+  <Microsoft365/>
+}
+/>
+
+<Route
+path="CaseStudies"
+element={
+  <CaseStudies/>
+}
+/>
+
  </Routes>
 }
 

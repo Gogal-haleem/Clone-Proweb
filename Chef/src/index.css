@@ -1,3 +1,7 @@
+
+
+
+
 *{
   box-sizing: border-box;
 
@@ -6,7 +10,6 @@
 body{
   margin:0;
   font-family: Inter,sans-serif;
-  padding-bottom:350px;
   position: relative;
 
 }
@@ -961,6 +964,8 @@ border-radius: 29px;
   width: 90%;
 }
 
+
+
 .Get-In-Touch{
   position: relative;
 top:1500px;
@@ -1012,7 +1017,6 @@ width:640px;
   position: relative;
   top:1700px;
   display: flex;
- 
   gap:100px;
   width: 100%;
   height:600px;
@@ -1064,6 +1068,8 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
  }
+
+
 
 
  
@@ -1202,9 +1208,9 @@ font-size: 3rem;
 }
 
 .Form{
-  position: relative;
-  left:660px;
-  top:-1105px;
+
+  margin-left:660px;
+ margin-top:-1105px;
   border:1px solid lightblue;
   width:500px;
   display: flex;
@@ -1238,6 +1244,565 @@ font-size: 3rem;
   font-size: 1.2rem;
 }
 
-.Adjust-LastSection-Contact{
-margin-top: 0px;
+.LastSection02 .LastSection-container {
+    top: 0;
+    margin-top: 100px;
 }
+
+
+.NewService-Container{
+  position: relative;
+  top:70px;
+  left:100px;
+padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.NewService-Image{
+  position: absolute;
+  top:40px;
+  left:630px;
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.NewService-paragraph{
+  color:#66bfbe;
+  text-transform: uppercase;
+}
+
+.NewService-heading{
+  position: absolute;
+  font-size: 3.3rem;
+  top:15px;
+  left: 5px;
+}
+
+.NewService-paragraph2{
+  position: absolute;
+  width:550px;
+  font-size: 1.2rem;
+  color: #80848d;
+  line-height: 1.8rem;
+  top:120px;
+}
+
+.NewService-link1{
+ 
+  margin-top:300px;
+
+  width: 200px;
+  text-decoration: none;
+  color: white;
+  background-color:#1A2440;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.NewService-link2{
+ 
+margin-top: -40px;
+ margin-left:250px;
+ width: 200px;
+  text-decoration: none;
+  color: #1A2440;
+  background-color:whitesmoke;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.PropsDiv{
+  position: relative;
+ 
+  padding-top:200px;
+  padding-left: 100px;
+
+}
+
+.wraper{
+  position: relative;
+  display:flex;
+  gap:200px;
+  flex-direction: column;
+ top:-20px;
+}
+
+.Image-Service2{
+  position:absolute ;
+
+    width: 450px;
+  height: 300px;
+  border: 2px solid lightblue;
+  border-radius: 20px;
+}
+
+.ParagraphServices{
+  position: absolute;
+  top:100px;
+  left:580px;
+  width: 580px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color:  #80848d;
+}
+
+.HeadingServices2{
+  position: absolute;
+  left:600px;
+
+  
+}
+
+.LinksDivService2{
+ 
+ margin-left:600px;
+margin-top:230px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  
+}
+
+.linkServices{
+  text-decoration: none;
+  color:#111f45;
+}
+
+.LinkServices{
+  text-decoration: none;
+  color: white;
+  background-color: #111f45;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+
+
+
+
+.Service-Guide{
+  background: whitesmoke;
+  padding-top:50px;
+  padding-bottom: 70px;
+  text-align:center;
+  margin-top: 200px;
+}
+
+.Let-Start-Background{
+  background-color: whitesmoke;
+  padding-bottom: 350px;
+}
+
+
+
+.Guide-Header{
+  font-size: 2.8rem;
+}
+
+.Guide-Paragraph{
+  font-size: 1.2rem;
+  width:730px;
+  margin-left:260px;
+  color:#80848d;
+}
+
+.Guide-Link{
+  position: relative;
+  top:50px;
+  text-decoration: none;
+  color:white;
+  background-color: #111f45;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+    .Let-Start .Get-In-Touch{
+     
+     position: relative;
+     top:200px;
+    }
+
+    .Last-Section03 .LastSection-container{
+      margin-top: -1690px;
+    }
+
+    .ServicesLinkContainer{
+      margin-top:50px;
+      margin-left: 100px;
+    }
+
+   .ServiceslinksContainer{
+    display: flex;
+    gap:30px;
+
+   }
+
+   .Links{
+    text-decoration: none;
+    color: #73777d;
+   }
+
+   .Line-about-service{
+    margin-top:0px;
+    background-color: rgb(203, 222, 227);
+    padding: 4px;
+    border-radius: 8px;
+   }
+
+   .ManageImage{
+    width: 450px;
+    height: 290px;
+    border-radius: 20px;
+    margin-left:640px;
+   }
+
+   .Services-Information{
+    margin-top: -290px;
+   
+   }
+
+   .Services-paragraph-title{
+   text-transform: uppercase;
+   color:#111f45;
+   }
+
+   .Services-Headings{
+    width: 300px;
+    font-size: 3.3rem;
+   }
+
+   .Services-Paragraph-Lines{
+    font-size: 1.2rem;
+    width: 550px;
+    line-height: 1.8rem;
+    padding-bottom: 30px;
+   }
+
+   .Links-Services{
+    text-decoration: none;
+    color:white;
+    background-color:#111f45;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+   }
+
+   .Links-Services2{
+    text-decoration: none;
+    color:#111f45;
+    background-color: rgb(233, 231, 231);
+     padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+   }
+
+   .Reusebale-ServiceContainer{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+   }
+   
+   .Reusebale-ServiceContainer-P{
+      text-transform: uppercase;
+      color:#111f45;
+   }
+
+   .Reusebale-ServiceContainer-h1{
+    font-size: 3.2rem;
+   }
+
+   .Reusebale-ServiceContainer-P2{
+    font-size: 1.2rem;
+    width: 830px;
+   }
+
+
+   .Reusebale-Service-wraper{
+    display: flex;
+    gap:120px;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-right: 50px;
+    
+   }
+
+   .Reusebale-Service{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    background-color: whitesmoke;
+    border-radius: 20px;
+   
+    height: 266px;
+  
+   }
+.Reusebale-Service-Image{
+  position: relative;
+  object-fit: cover;
+  border-radius: 20px;
+  width: 440px;
+ 
+ 
+}
+
+
+
+.Wraper-Services{
+  margin-left:460px;
+  margin-top:-260px;
+
+ 
+}
+
+
+
+.Reusebale-Service-explanation{
+  width:600px;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+    color: #73777d;
+}
+   .Reusebale-Service-capabilities{
+    margin-top: -30px;
+   }
+
+
+
+   .Why-Choose-Us{
+    margin-left: 100px;
+     margin-top: 200px;
+   }
+    
+  .Why-Choose-Us-Container1-p1{
+    text-transform: uppercase;
+    color: #18399a;
+  }
+    
+  .Why-Choose-Us-Container1-h1{
+    width: 500px;
+    font-size: 2.7rem;
+  }
+  
+
+  .Why-Choose-Us-Container1-ol{
+   font-size: 1.2rem;
+   margin-left: -20px;
+   line-height: 1.8rem;
+  }
+
+   .Why-Choose-Us-Container2{
+    margin-top: -350px;
+    margin-left:530px;
+    border-radius: 20px;
+    background-color:#21356b;
+    color: white;
+     padding-top:80px;
+     padding-bottom: 80px;
+     padding-left:60px;
+    width:550px;
+    
+    
+   
+   }
+    
+
+   .Why-Choose-Us-Container2-h1{
+     width: 300px;
+     font-size: 2.5rem;
+   }
+
+   .Why-Choose-Us-Container2-p{
+    width:500px;
+    font-size: 1rem;
+   }
+
+   .Why-Choose-Us-Container2-Link{
+    position: relative;
+    top:40px;
+     text-decoration: none;
+         border-radius: 20px;
+    background-color:#4a5a87 ;
+    padding: 10px;
+     color: white;
+   }
+
+   .Controll-Height-Consultation .Get-In-Touch{
+    top:200px;
+   }
+
+   .Controll-Height-LastSection .LastSection-container{
+     
+    position: relative;
+    top:400px;
+   }
+    
+  
+.Reusebale-Service-title{
+
+  width: 600px;
+}
+   .Reuseable-Cards{
+    margin-left:100px;
+   }
+
+
+
+   .Reuseable-Cards-p1{
+    color:#18399a;
+    text-transform: uppercase;
+   }
+
+   .Reuseable-Cards-h1{
+    font-size: 3rem;
+   }
+
+   .Reuseable-Cards-p2{
+    font-size: 1.2rem;
+    width:700px;
+    color:#73777d;
+   }
+
+   .Section-Managed-Infrastructure{
+    padding-top:30px;
+    background-color: whitesmoke;
+   }
+
+   .Reusable-Cards-Data-wraper{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    padding: 100px;
+    gap: 20px;
+   }
+
+   .Reusable-Cards-Data{
+    width: 95%;
+    display: flex;
+    padding-bottom:60px ;
+    flex-direction: column;
+    border:1px solid;
+   padding:20px;
+   border: 1px solid lightblue;
+   background-color: white;
+    border-radius: 20px;
+
+   }
+
+   .Reusable-Cards-Data-Link{
+    text-decoration: none;
+    color: #111f45;
+   }
+    
+
+   .Services-Headings-Cloud{
+    font-size: 3rem;
+    width:600px;
+   }
+
+
+   .Reusebale-Service-Image2{
+    border-radius: 20px;
+    object-fit: cover;
+    height:100%;
+   width: 440px;
+   
+   }
+
+
+   .Reuseable-Cards-h1-2{
+    font-size: 3rem;
+    width: 700px;
+   }
+
+   .AiIntegrationCard-3{
+    margin-left: 100px;
+    
+   }
+
+   .AiIntegrationCard-3-p{
+      color:#042886;
+      text-transform: uppercase;
+   }
+
+   .AiIntegrationCard-3-h1{
+    font-size: 3rem;
+    width: 700px;
+   }
+
+   .AiIntegrationCard-3-p2{
+    font-size: 1.1rem;
+    width:780px;
+    color:#80848d;
+   }
+
+   .WraperofCards-in3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px ;
+    margin-top: 50px;
+   }
+
+   .Cards-in3{
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+   }
+
+   .Cards-in3-Link{
+    text-decoration: none;
+    color:#042886;
+   }
+
+
+   .Reusable-Cards-Data-img{
+    color:#23418c;
+   }
+   
+   .LinkofDigitalMarketingCards{
+    border-top: 1px solid #042886;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #042886;
+   }
+
+
+   .ImageForCRMandERP{
+    height: 200px;
+
+    object-fit: cover;
+    border-radius: 10px;
+    
+   }
+
+   .IconsforCRMandERP{
+    height: 50px;
+    width:50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+   }
+   
+
+
+
+   .ContainerForCaseStudies{
+    background-image: url("./components/37.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 500px;
+   padding-left: 100px;
+   }
+
+   .ParagraphForCaseStudies{
+    text-transform: uppercase;
+    padding-top: 30px;
+   }
+
+   

@@ -61,13 +61,12 @@ function handleSubmit(event) {
     if (totalErrorsFound) {
       return; 
     }
-    else{
-        console.log("form submitted successfully thanks")
-    }
+   
    
 }
     return<section className="Contact-page-section">
        <Header/>
+       
       <div className="New-Work-Contact">
        <img src={ImageForContact} alt="ContactPageImage" className="ImageContact-Page" />
        <p className="Paragraph1-Contact-Page">Contact</p>
@@ -136,9 +135,11 @@ function handleSubmit(event) {
        
       </form>
       ) : null} 
-
-      <div className="Adjust-LastSection-Contact">
-        <LastSection/>
-      </div>
+     
+     <div className="LastSection02 ">
+      <LastSection/>
+     </div>
+       
+     
     </section>
 }

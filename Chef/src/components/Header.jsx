@@ -12,8 +12,8 @@ export default function Header(){
           < Link to="/Contact" className="GetITouch" href="">Get in touch</Link>
 
          <div className="Links-header">
-              <Link className="links" >Services</Link>
-              <a className="links" href="">Case Studies</a>
+              <Link to="/Services" className="links" >Services</Link>
+              <Link to="/CaseStudies" className="links" href="">Case Studies</Link>
               <a className="links" href="">Insight</a>
               <a className="links" href="">AboutUs</a>
               <a className="links" href="">Carrers</a>
