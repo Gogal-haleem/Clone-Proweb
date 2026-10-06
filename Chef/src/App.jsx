@@ -50,7 +50,48 @@ import Salesforce from "./components/Salesforce"
 import CRMandERP from "./components/CRM and ERP"
 import Dynamic365 from "./components/Dynamic365"
 import Microsoft365 from "./components/Microsoft365"
+
+
+
 import CaseStudies from "./components/CaseStudies"
+import LinkPageOfProKitchen from "./components/LinkPageOfProKitchen"
+import LinkPageOfQubitX from "./components/LinkPageOfQubitX"
+import LinkPageOfCNPsecurity from "./components/LinkPageOfCNPsecurity"
+import LinkPageOfIIB from "./components/LinkPageOfIIB"
+import LinkPageOfNepean from "./components/LinkPageOfNepean"
+import LinkPageOfWestrenEducation from "./components/LinkPageOfWestrenEducation"
+import LinkPageOfProfeissonalServices from "./components/LinkPageOfProfeissonalServices"
+import LinkPageOfRisallah from "./components/LinkPageOfRisallah"
+import LinkPageOfGrowingAdvisory from "./components/LinkPageOfGrowingAdvisory"
+import LinkPageOfCare from "./components/LinkPageOfCare"
+import LinkPageOfAccountingAndAdvisory from "./components/LinkPageOfAccountingAndAdvisory"
+import LinkPageOfAllimbaCare from "./components/LinkPageOfAllimbaCare"
+import LinkPageOfCarrerRise from "./components/LinkPageOfCarrerRise"
+import LinkPageOfComertialKitchen from "./components/LinkPageOfComertialKitchen"
+import LinkPageOfIdealCover from "./components/LinkPageOfIdealCover"
+import LinkPageOfSecurityServices from "./components/LinkPageOfSecurityServices"
+import LinkPageOfReadArticle from "./components/LinkPageOfReadArticle"
+
+
+import Insights from "./components/Insights"
+import LinkPageOfDigitalPresenceInsight from "./components/LinkPageOfDigitalPresenceInsight"
+import LinkPageOfDigitalMarketingInsight from "./components/LinkPageOfDigitalMarketingInsight"
+import LinkPageOfManageITinsight from "./components/LinkPageOfManageITinsight"
+import LinkPageOfCloudCardinsight from "./components/LinkPageOfCloudCardinsight"
+import LinkPageOfCRMinsight from "./components/LinkPageOfCRMinsight"
+import LinkPageOfCyberSecurityinsight from "./components/LinkPageOfCyberSecurityinsight"
+import LinkPageOfCRMandERP from "./components/LinkPageOfCRMandERP"
+
+
+import AboutUs from "./components/AboutUs"
+
+import Carrer from "./components/Carrer"
+import LinkPageOfCarrerCard1 from "./components/LinkPageOfCarrerCard1"
+import LinkPageOfCareerCard2 from "./components/LinkPageOfCareerCard2"
+import LinkPageOfCarrerCard3 from "./components/LinkPageOfCarrerCard3"
+import DropDown from "./components/DropDown"
+import  OurTeam from "./components/OurTeam"
+
 
 import Education from "./components/Education.png"
 import EduIcon from "./components/EduIcon.png"
@@ -465,6 +506,240 @@ element={
 path="CaseStudies"
 element={
   <CaseStudies/>
+}
+/>
+
+<Route
+path="LinkPageOfProKitchen"
+
+element={
+  <LinkPageOfProKitchen/>
+}
+
+/>
+
+
+<Route
+path="LinkPageOfQubitX"
+element={
+  <LinkPageOfQubitX/>
+}
+/>
+
+<Route
+path="LinkPageOfCNPsecurity"
+element={
+  <LinkPageOfCNPsecurity/>
+}
+
+/>
+<Route
+path="LinkPageOfIIB"
+element={
+  <LinkPageOfIIB/>
+}
+/>
+
+<Route
+path="LinkPageOfNepean"
+
+element={
+  <LinkPageOfNepean/>
+}
+/>
+
+<Route
+path="LinkPageOfWestrenEducation"
+element={
+  <LinkPageOfWestrenEducation/>
+}
+/>
+
+<Route
+path="LinkPageOfProfeissonalServices"
+element={
+  <LinkPageOfProfeissonalServices/>
+}
+/>
+
+<Route
+path="LinkPageOfRisallah"
+
+element={
+  <LinkPageOfRisallah/>
+}
+/>
+
+<Route
+path="LinkPageOfGrowingAdvisory"
+element={
+  <LinkPageOfGrowingAdvisory/>
+}
+/>
+
+<Route
+path="LinkPageOfCare"
+
+element={
+  <LinkPageOfCare/>
+}
+/>
+
+<Route
+path="LinkPageOfAccountingAndAdvisory"
+element={
+  <LinkPageOfAccountingAndAdvisory/>
+}
+/>
+
+<Route
+path="LinkPageOfAllimbaCare"
+element={
+  <LinkPageOfAllimbaCare/>
+}
+/>
+
+<Route
+path="LinkPageOfCarrerRise"
+element={
+  <LinkPageOfCarrerRise/>
+}
+/>
+
+<Route
+path="LinkPageOfComertialKitchen"
+
+element={
+  <LinkPageOfComertialKitchen/>
+}
+/>
+
+<Route
+path="LinkPageOfIdealCover"
+element={
+  <LinkPageOfIdealCover/>
+}
+/>
+
+<Route
+path="LinkPageOfSecurityServices"
+element={
+  <LinkPageOfSecurityServices/>
+}
+/>
+
+<Route
+path="Insights"
+
+element={
+ <Insights/>
+}
+/>
+
+<Route
+path="LinkPageOfReadArticle"
+element={
+  <LinkPageOfReadArticle/>
+}
+/>
+
+<Route
+path="LinkPageOfDigitalPresenceInsight"
+element={
+  <LinkPageOfDigitalPresenceInsight/>
+}
+/>
+
+<Route
+path="LinkPageOfDigitalMarketingInsight"
+element={
+  <LinkPageOfDigitalMarketingInsight/>
+}
+/>
+
+<Route
+path="LinkPageOfManageITinsight"
+element={
+  <LinkPageOfManageITinsight/>
+}
+/>
+
+<Route
+path="LinkPageOfCloudCardinsight"
+element={
+  <LinkPageOfCloudCardinsight/>
+}
+/>
+
+<Route
+path="LinkPageOfCRMinsight"
+element={
+  <LinkPageOfCRMinsight/>
+}
+/>
+
+<Route
+path="LinkPageOfCyberSecurityinsight"
+element={
+  <LinkPageOfCyberSecurityinsight/>
+}
+/>
+
+<Route
+path="LinkPageOfCRMandERP"
+element={
+<LinkPageOfCRMandERP/>
+}
+/>
+
+
+<Route
+path="AboutUs"
+element={
+  <AboutUs/>
+}
+/>
+
+<Route
+path="Carrer"
+element={
+  <Carrer/>
+}
+/>
+
+<Route
+path="LinkPageOfCarrerCard1"
+element={
+  <LinkPageOfCarrerCard1/>
+}
+/>
+
+<Route
+path="LinkPageOfCareerCard2"
+
+element={
+  <LinkPageOfCareerCard2/>
+}
+/>
+
+<Route
+path="LinkPageOfCarrerCard3"
+element={
+  <LinkPageOfCarrerCard3/>
+}
+/>
+
+<Route
+path="DropDown"
+element={
+  <DropDown/>
+}
+/>
+
+<Route
+path="OurTeam"
+element={
+ <OurTeam/>
 }
 />
 

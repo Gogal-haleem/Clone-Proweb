@@ -18,7 +18,7 @@ export default function Services (){
             <h1 className="NewService-heading">Services</h1>
             <p className="NewService-paragraph2">From managed infrastructure and AI integrations to digital presence, cloud, and CRM platforms, we help you plan, implement, and support the technology your business relies on. Every engagement includes clear advice, practical delivery, secure integration, and ongoing support aligned with your operations</p>
             <Link to="/Contact"  className="NewService-link1" >Talk to an expert →</Link>
-            <Link to="" className="NewService-link2" href="">View case studies</Link>
+            <Link to="/CaseStudies" className="NewService-link2" href="">View case studies</Link>
             </div>
 
             <div className="Wraper">
@@ -35,10 +35,10 @@ export default function Services (){
                           <div className="LinksDivService2">
                           <Link to={props.LinKto} className="linkServices" >{props.link1}</Link>
                           <Link to={props.Linkto1} className="linkServices" >{props.link2}</Link>
-                          <Link to={props.Linkto2} className="linkServices" >{props.link3}</Link>
-                          <Link to={props.Linkto3}className="linkServices" >{props.link4}</Link> 
-                           <Link to={props.Linkto4} className="linkServices">{props.link5}</Link> 
-                          <Link className="LinkServices" href="">{props.Link}</Link>
+                          {props.Linkto2 &&<Link to={props.Linkto2} className="linkServices" >{props.link3}</Link>}
+                          {props.Linkto3 && <Link to={props.Linkto3}className="linkServices" >{props.link4}</Link>} 
+                          {props.Linkto4 &&<Link to={props.Linkto4} className="linkServices">{props.link5}</Link>}
+                          <Link to={props.LinktoPage} className="LinkServices" >{props.Link}</Link>
                           </div>
                  </div>
                  </div>

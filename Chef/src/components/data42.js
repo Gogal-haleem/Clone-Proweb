@@ -1,0 +1,6 @@
+export default [
+    {pointno:"01", heading:"Map the real customer journey first", paragraph:"Many teams purchase Salesforce expecting immediate clarity, then struggle because generic stages do not match how enquiries, sales, onboarding, and service delivery actually work. Process mapping should happen before configuration."},
+    {pointno:"02", heading:"Configure around useful work", paragraph:"Fields, page layouts, permissions, and stages should help employees complete their work with less effort. Unnecessary complexity reduces adoption and makes data less reliable."},
+    {pointno:"03", heading:"Automate repeatable actions", paragraph:"Lead assignment, follow-up reminders, approvals, notifications, and document generation are strong automation candidates. Each automation should have a clear owner and exception path."},
+    {pointno:"04", heading:"Build reporting people can trust", paragraph:"Dashboards are only useful when definitions and data quality are consistent. Agree on key measures, make required information easy to capture, and review reports with the people responsible for the underlying process.",purpose:"When Salesforce reflects the business, teams gain better visibility, faster follow-up, and a cleaner path from enquiry to delivery."},
+]

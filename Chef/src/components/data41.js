@@ -1,0 +1,6 @@
+export default [
+    {pointno:"01", heading:"Understand the current environment", paragraph:"Cloud migrations become risky when organisations move before understanding their applications, data, identities, integrations, licences, and operational dependencies. Discovery creates the baseline needed for sensible decisions."},
+    {pointno:"02", heading:"Choose the right destination", paragraph:"Not every workload needs the same cloud model. Security, performance, compliance, recovery, user location, and cost should determine whether a system is replaced, reconfigured, moved as-is, or retained temporarily."},
+    {pointno:"03", heading:"Migrate in controlled stages", paragraph:"A phased plan allows the team to test connectivity, permissions, backups, and business processes before critical systems move. Clear cutover and rollback plans reduce disruption when each stage goes live."},
+    {pointno:"04", heading:"Optimise after the move", paragraph:"Migration is not complete when data reaches the cloud. Monitor cost, performance, security alerts, backup recovery, and user experience, then adjust the environment as real usage becomes visible.", purpose:"With preparation and ongoing management, the cloud becomes a stable platform for flexibility and growth rather than a new source of complexity."},
+]

@@ -11,7 +11,7 @@ import LastSection from "./LastSection"
 
 export default function DigitalPresenceAndMarketing(){
 
-   return <section >
+   return <section className="Manage" >
 
      <div>
         <Header/>
@@ -44,7 +44,7 @@ export default function DigitalPresenceAndMarketing(){
              const  Icon=props.img
                return <div className="Reusable-Cards-Data">
                       
-                       <Icon size={26} className="Reusable-Cards-Data-img"/>
+                       <Icon size={26} className="Reusable-Cards-Data-icons-Of-Services"/>
                      
                        <h1 className="Reusable-Cards-Data-h1">{props.h1}</h1>
                        <p className="Reusable-Cards-Data-explanation">{props.p}</p>

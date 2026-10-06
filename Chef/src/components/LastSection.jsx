@@ -1,7 +1,7 @@
 import logo from "./logo.png"
 import {FaFacebook, FaLinkedin} from "react-icons/fa"
 import {FaMapMarkerAlt,FaPhoneAlt,FaEnvelope} from "react-icons/fa"
-
+import {Link} from "react-router-dom"
 export default function LastSection(){
     return <section className="LastSection-container">
 
@@ -21,30 +21,30 @@ ABN 64 631 335 923</p>
         <h2 className="h2LastSection">Company
 </h2>
           <br></br>
-          <a className="link-LastSection" href="">Services</a>
+          <Link to="/Services"className="link-LastSection" href="">Services</Link>
           <br></br>
-          <a className="link-LastSection" href="">Case studies</a>
+          <Link to="/CaseStudies" className="link-LastSection" href="">Case studies</Link>
           <br></br>
-          <a className="link-LastSection" href="">About us</a>
+          <Link to="/AboutUs" className="link-LastSection" href="">About us</Link>
           <br></br>
-          <a className="link-LastSection" href="">Careers</a>
+          <Link to="/Carrer" className="link-LastSection" href="">Careers</Link>
           <br></br>
-          <a className="link-LastSection" href="">Team</a>
+          <Link to="/ourTeam" className="link-LastSection" href="">Team</Link>
         </div>
 
 
           <div className="ServiceContainer">
           <h2 className="h2LastSection" >Services</h2>
           <br></br>
-          <a className="link-LastSection"href="">Managed InfrastructureI</a>
+          <Link to="/Managed-Infrastructure" className="link-LastSection"href="">Managed InfrastructureI</Link>
           <br></br>
-          <a className="link-LastSection" href="">AI Integrations</a>
+          <Link to="/Ai Integration"  className="link-LastSection" href="">AI Integrations</Link>
           <br></br>
-          <a className="link-LastSection"href="">Digital Presence & Marketing</a>
+          <Link to="/DigitalPresenceAndMarketing"  className="link-LastSection"href="">Digital Presence & Marketing</Link>
           <br></br>
-          <a className="link-LastSection" href="">Technology Solutions</a>
+          <Link to="/ITSupport"  className="link-LastSection" href="">Technology Solutions</Link>
           <br></br>
-          <a className="link-LastSection" href=""> CRM, ERP & BI</a>
+          <Link to="/CRM and ERP"  className="link-LastSection" href=""> CRM, ERP & BI</Link>
         </div>
 
         <div className="ContactContainer">

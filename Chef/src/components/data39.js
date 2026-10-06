@@ -1,0 +1,6 @@
+export default [
+    {pointno:"01", heading:"Give every campaign a purpose", paragraph:"Effective email marketing starts with a clear reason to send. Helpful updates, practical advice, service reminders, and relevant offers perform better than messages created simply to fill a campaign calendar."},
+    {pointno:"02", heading:"Send relevant information", paragraph:"Existing customers, new enquiries, and long-term prospects usually need different information. Segmenting the audience by relationship, interest, or behaviour keeps each message focused and reduces unnecessary email."},
+    {pointno:"03", heading:"Make the next step obvious", paragraph:"Each campaign should have one primary action, whether that is reading an article, booking a consultation, reviewing an offer, or updating account details. Clear hierarchy and concise copy make that action easier to understand."},
+    {pointno:"04", heading:"Improve using meaningful results", paragraph:"Open rates alone do not show whether a campaign helped the business. Review replies, enquiries, conversions, unsubscribes, and deliverability, then adjust content and frequency so email remains a trusted communication channel."},
+]

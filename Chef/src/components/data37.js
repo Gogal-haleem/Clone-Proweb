@@ -1,0 +1,8 @@
+
+
+export default [
+    {pointno:"01", heading:"Start with the operational problem", paragraph:"AI creates the most value when it solves a specific, repeated problem. Manual data entry, document classification, internal knowledge searches, routine customer questions, and follow-up tasks are often better starting points than a broad transformation program.", purpose:"The goal is not to add AI everywhere. It is to identify work that consumes time, follows understandable rules, and can be measured before and after automation."},
+    {pointno:"02", heading:"Assess the process and the data", paragraph:"Map where work slows down, which decisions depend on scattered information, and where employees regularly copy data between systems. Then review whether the underlying data is accurate, accessible, and appropriate for the proposed use."},
+    {pointno:"03", heading:"Build a controlled first use case", paragraph:"Choose one workflow with a clear owner, limited risk, and a useful success measure such as hours saved, response time, or fewer processing errors. Keep human review in place while the solution proves reliable."},
+    {pointno:"04", heading:"Scale from evidence", paragraph:"Once the first workflow is stable, its security controls, integrations, and lessons become a foundation for broader adoption. This staged approach produces measurable value while avoiding unnecessary cost and disruption."},
+]

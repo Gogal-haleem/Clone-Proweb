@@ -2,7 +2,7 @@ import { FaSitemap, FaCloud, FaServer,FaBuilding,FaHeadset,FaShieldAlt ,FaCog, F
 
 
 export default [
-    {img: FaSitemap, h1:"Network Services",p:"Design, implement, and manage network infrastructure for seamless connectivity and security.",link:"Explore service ↗"},
+    {img:FaSitemap , h1:"Network Services",p:"Design, implement, and manage network infrastructure for seamless connectivity and security.",link:"Explore service ↗"},
 
     {img: FaCloud, h1:"Cloud Services",p:"Cloud migration, infrastructure management, and secure recovery built for growth.",link:"Explore service ↗"},
 

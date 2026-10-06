@@ -11,6 +11,7 @@ body{
   margin:0;
   font-family: Inter,sans-serif;
   position: relative;
+  
 
 }
 
@@ -26,14 +27,16 @@ body{
 }
 
 .Links-header{
-position: absolute;
-top:30px;
-left:370px;
+position: relative;
+top:-35px;
+left:270px;
 display:flex;
 flex-direction: row;
 gap:39px;
 font-size:18px;
 font-weight: 400;
+ z-index: 10;       /* <-- ADD THIS to bring it to the front */
+  cursor: pointer;  
 }
 .links{
   text-decoration: none;
@@ -56,8 +59,8 @@ margin-left:108px;
 
 .GetITouch{
   position:absolute;
-  top:25px;
-  left:980px;
+  top:15px;
+  right: 80px;
   border:2px solid rgba(93, 137, 176, 0.781);
   border-radius:26px;
   background-color: rgba(20, 32, 69, 0.904);
@@ -1023,6 +1026,7 @@ width:640px;
   background-color:  #1A2440;
   color:#73777e ;
   padding: 50px;
+ 
  }
 
  .LastSection-container a{
@@ -1315,8 +1319,7 @@ margin-top: -40px;
 
 .PropsDiv{
   position: relative;
- 
-  padding-top:200px;
+  margin-top: 150px;
   padding-left: 100px;
 
 }
@@ -1327,6 +1330,7 @@ margin-top: -40px;
   gap:200px;
   flex-direction: column;
  top:-20px;
+ margin: -70px;
 }
 
 .Image-Service2{
@@ -1343,7 +1347,7 @@ margin-top: -40px;
   top:100px;
   left:580px;
   width: 580px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.8rem;
   color:  #80848d;
 }
@@ -1368,14 +1372,18 @@ margin-top:230px;
 .linkServices{
   text-decoration: none;
   color:#111f45;
+  font-size: 0.9rem;
 }
 
 .LinkServices{
   text-decoration: none;
   color: white;
+ 
+  margin-top: 10px;
   background-color: #111f45;
   padding: 10px 30px;
   border-radius: 30px;
+  width: max-content;
 }
 
 
@@ -1446,8 +1454,9 @@ margin-top:230px;
 
    .Line-about-service{
     margin-top:0px;
-    background-color: rgb(203, 222, 227);
-    padding: 4px;
+   background-color: rgb(203, 222, 227);
+    padding: 3px;
+    font-size: 0.9rem;
     border-radius: 8px;
    }
 
@@ -1550,6 +1559,7 @@ margin-top:230px;
 
 
 .Wraper-Services{
+  position: relative;
   margin-left:460px;
   margin-top:-260px;
 
@@ -1629,22 +1639,28 @@ margin-top:230px;
    }
 
    .Controll-Height-Consultation .Get-In-Touch{
-    top:200px;
+    top:90px;
    }
 
    .Controll-Height-LastSection .LastSection-container{
      
     position: relative;
-    top:400px;
+    top:150px;
    }
     
+   .Manage{
+    margin-right:-100px;
+   }
   
+
+
 .Reusebale-Service-title{
 
   width: 600px;
 }
    .Reuseable-Cards{
     margin-left:100px;
+   
    }
 
 
@@ -1673,8 +1689,19 @@ margin-top:230px;
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     padding: 100px;
+    margin-right:150px;
+    gap: 40px;
+   }
+
+   .Reusable-Cards-Data-wraperAboutUs{
+      display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin-left:100px;
+    margin-right:20px;
     gap: 20px;
    }
+
+  
 
    .Reusable-Cards-Data{
     width: 95%;
@@ -1689,11 +1716,27 @@ margin-top:230px;
 
    }
 
+   .Reusable-Cards-Data:hover{
+    border-top: 4px solid  #103393;
+   }
+
    .Reusable-Cards-Data-Link{
     text-decoration: none;
     color: #111f45;
    }
+   
+   .Reusable-Cards-Data-Link:hover{
+     color: #16389b;
+   }
+
     
+   .Reusable-Cards-Data-icons-Of-Services{
+    margin-left:0px;
+    color: #2141a0;
+   
+   }
+
+ 
 
    .Services-Headings-Cloud{
     font-size: 3rem;
@@ -1760,6 +1803,11 @@ margin-top:230px;
 
    .Reusable-Cards-Data-img{
     color:#23418c;
+    margin-left:0px;
+   }
+
+   .Reusable-Cards-Data-img-forServices{
+    
    }
    
    .LinkofDigitalMarketingCards{
@@ -1792,17 +1840,1390 @@ margin-top:230px;
 
 
    .ContainerForCaseStudies{
-    background-image: url("./components/37.png");
+    background-image: url("./components/CaseStudies.png");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
    min-height: 500px;
    padding-left: 100px;
+   color: white;
    }
 
    .ParagraphForCaseStudies{
     text-transform: uppercase;
     padding-top: 30px;
+    color:#66bfbe;
+    
+   }
+ 
+   .headingForCaseStudies{
+    font-size: 3.3rem;
+    width: 700px;
+   }
+   
+   .paragraph2ForCaseStudies{
+    width: 750px;
+    font-size: 1.2rem;
+    color:#ccc;
+    line-height: 2rem;
+    padding-bottom: 30px;
+    
+   }
+
+   .link1ForCaseStudies{
+    text-decoration: none;
+    background-color:#111f45;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+   }
+
+   .link2ForCaseStudies{
+    text-decoration: none;
+    background-color:white;
+    color: #111f45;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 40px;
+   
+   }
+
+   .Container2ForCaseStudies{
+    margin-left:100px;
+
+   }
+
+   .paragraph1Card1{
+    margin-top: 50px;
+    text-transform: uppercase;
+    color:#18399a;
+   }
+
+   .headingCard1{
+    width:700px;
+    font-size: 3.2rem;
+   }
+
+   .paragraph2Card1{
+    font-size: 1.2rem;
+    width: 700px;
+   }
+
+   .ToMakeItLink{
+    text-decoration: none;
+   }
+
+  
+
+
+   .WraperCaseStudies{
+      display: grid;
+  grid-template-columns: repeat(2,1fr) ;
+    gap:30px;
+    margin-top: 80px;
+    padding-right: 100px;
+   }
+   
+ 
+
+   .LinktoPageInCaseStudies{
+    text-decoration: none;
+   }
+   
+
+   .CardsForCaseStudies{
+    
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 30px;
+   }
+
+  .CardsForCaseStudies:hover{
+   cursor: pointer;
+   border-top:4px solid #042886;
+  }
+
+   .TitleOfCaseStudies{
+    color:#18399a;
+   }
+
+  .headingCaseStudies{
+    font-size: 1.5rem;
+    color: #0B1120;
+  }
+
+  .paragraphCaseStudies{
+    color:#0B1120;
+  }
+   
+
+
+   .LinksCaseStudies1{
+   
+    padding-top: 10px;
+    text-decoration: none;
+    color: #83878d;
+    font-size: 0.8rem;
+   background-color: #f0ececea;
+    padding: 5px;
+    border-radius: 20px;
+   }
+
+   .LinksCaseStudies2{
+  
+    padding-top: 10px;
+    text-decoration: none;
+    color: #83878d;
+    margin-left: 10px;
+     font-size: 0.8rem;
+    background-color: #f0ececea;
+    padding: 5px;
+    border-radius: 20px;
+   }
+
+   .LinksCaseStudies3{
+    
+    padding-top: 10px;
+    text-decoration: none;
+    color: #83878d;
+    margin-left: 10px;
+     font-size: 0.8rem;
+     background-color: #f0ececea;
+    padding: 5px;
+    border-radius: 20px;
+   }
+
+   .ContainerForLinksWebDev{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 100px;
+   }
+
+   .LinktoHome{
+    text-decoration: none;
+    color:#73777d;
+   }
+
+   .LinktoCaseStudies{
+     text-decoration: none;
+    color:#73777d;
+  margin-left: 30px;
+   }
+   
+   .TitleForLinks{
+     background-color: rgb(203, 222, 227);
+     padding: 8px;
+     border-radius: 10px;
+     margin-top: -7px;
+     margin-left: 30px;
+   }
+
+   .ContainerInfoWebDev{
+    margin-left: 100px;
+   
+   }
+
+   .ContainerInfoWebDevParagraph1{
+    text-transform: uppercase;
+    color: #042886;
+   }
+
+   .ContainerInfoWebDevheading{
+    font-size: 3.3rem;
+    width:430px ;
+   }
+   
+   .ContainerInfoWebDevParagraph2{
+    width:600px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #73777d;
+   }
+
+   .InfoClientWebDev{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color:whitesmoke;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10),0px 1px 2px 0px ;
+    margin-top: -350px;
+    margin-left: 750px;
+    width: 450px;
+    padding: 20px;
+   }
+
+   .allignment{
+    margin-left: 20px;
+   }
+
+   .Client{
+    text-transform: uppercase;
+    color:#042886;
+   }
+
+   .ClientsLogo{
+    margin-left:30px;
+    background-color: white;
+    width: 300px;
+    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10),0px 1px 2px 0px;
+    animation:float 6s ease-in-out infinite;
+   }
+
+   .LogosOfClients{
+    display: block;        /* Ensures it behaves as a block element */
+  margin-left: auto;     /* Pushes evenly from the left */
+  margin-right: auto; 
+   }
+
+   @keyframes float{
+  0% ,100%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-8px);
+  }
+}
+.AllignmentLinksName{
+display:grid;
+grid-template-columns: repeat(2 , 1fr);
+gap:20px;
+}
+.Link1InInfo{
+  font-size: 0.8rem;
+  padding: 3px;
+  background-color:rgb(203, 222, 227);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Link2InInfo{
+  font-size: 0.8rem;
+  padding: 3px;
+  background-color:rgb(203, 222, 227);
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.Link3InInfo{
+
+ position: relative;
+ top:-20px;
+  font-size: 0.8rem;
+  padding: 3px;
+  background-color:rgb(203, 222, 227);
+  text-align: center;
+  border-radius: 10px;
+  
+
+}
+.ReusedBoxesOfInfo{
+  margin-top: 100px;
+  border: 1px solid lightblue;
+  padding-top:20px;
+  padding-left: 110px;
+  display: flex;
+  gap:20px;
+  padding-bottom: 20px;
+}
+
+.ReusedBox{
+  width: 320px;
+  font-size: 0.9rem;
+  padding: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10),0px 1px 2px 0px;
+ background-color: whitesmoke;
+ border-radius: 20px;
+}
+
+.ContainerTheChallenge{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.TheChallengeTitle{
+  text-transform: uppercase;
+  color: #042886;
+}
+
+.TheChallengeheading{
+  font-size: 3.1rem;
+}
+
+.TheChallengeparagraph{
+  font-size: 1.2rem;
+  width:1100px;
+  line-height: 2rem;
+  color: #73777d;
+}
+
+.OurApproach{
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+.OurApproachparagraph{
+  text-transform: uppercase;
+  color: #042886;
+}
+
+.OurApproachheading{
+  font-size: 3.1rem;
+}
+
+.OurApproacshlabel{
+  background-color:whitesmoke;
+  padding: 20px;
+  width: 1000px;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+
+}
+
+.LabelsNo{
+  color: #042886;
+  font-weight: 700;
+  font-size: large;
+  margin-right: 10px;
+}
+
+.TheSolution{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.TheSolutionTitle{
+  text-transform: uppercase;
+  color: #042886;
+}
+
+.TheSolutionHeading{
+  font-size: 3.1rem;
+}
+
+.TheSolutionParagraph{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  width: 1100px;
+  color: #73777d;
+}
+
+.TheOutcome{
+   margin-top: 50px;
+  margin-left: 100px;
+}
+
+.TheOutcomeTitle{
+  text-transform: uppercase;
+  color: #042886;
+}
+
+.TheOutcomeHeading{
+   font-size: 3.1rem;
+}
+
+.TheOutcomeParagraph{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  width: 1100px;
+  color: #73777d;
+}
+
+.ClientInfo{
+ 
+  font-weight: 700;
+}
+
+.ClientReview{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: whitesmoke;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10),0px 1px 2px 0px ;
+  margin-left:100px;
+  margin-right:100px;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 20px;
+}
+
+.ClientWords{
+  font-size: 1.2rem;
+  color: #73777d;
+}
+
+.ServicesDelivered{
+   margin-top: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border: 1px solid whitesmoke;
+   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.10),0px 1px 2px 0px ;
+   border-radius: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 80px;
+  color: #80848d;
+
+}
+
+.ServicesDeliveredHeading{
+  color: black;
+}
+
+.ServicesDelivered1{
+  border-top:1px solid rgb(215, 224, 227);
+  border-bottom: 1px solid rgb(215, 224, 227) ;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 40px;
+}
+
+.ServicesDelivered2{
+   border-top:1px solid rgb(215, 224, 227);
+  border-bottom: 1px solid rgb(215, 224, 227);
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 40px;
+}
+
+.ServicesDelivered3{
+  border-top:1px solid rgb(215, 224, 227);
+  border-bottom: 1px solid rgb(215, 224, 227);
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 40px;
+}
+
+.ServicesDeliveredLink1{
+  position: relative;
+  text-decoration: none;
+  color: white;
+   padding: 10px 300px;
+  background-color:#2c3e6e;
+ left:110px;
+ border-radius: 20px;
+}
+
+.ServicesDeliveredLink2{
+  position: relative;
+ text-decoration: none;
+ color:#2c3e6e;
+ top:40px;
+ right: 350px;
+ 
+}
+
+.ServicesDeliveredLink2:hover{
+  color: #18399a;
+}
+
+.ServicesDeliveredLink1:hover{
+  color:#80848d;
+}
+
+.CardOfInsight{
+  border: 1px solid lightblue;
+  margin-left:100px;
+  display: flex;
+  width:85%;
+ 
+
+  border-radius: 20PX;
+}
+
+.WrapTextOfInsightCard{
+  display: flex;
+  flex-direction: column;
+  margin-top:-330px;
+  margin-left: 500px;
+  width: 600px;
+  height:400px;
+ 
+}
+
+.ImageForInsightCard{
+  width: 40%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.LinkWraperForInsight{
+  text-decoration: none;
+}
+
+.AiIntegration{
+  color:white;
+  background-color:#1A2440;
+  width:200px;
+  text-align: center;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.IssuedDate{
+  color:#73777d;
+}
+
+.HeadingOfIsightCard{
+  color:#0B1120;
+}
+
+.explainIsightCard{
+  color: #73777d;
+}
+
+.ReadArticle{
+  color:#042886;
+  text-decoration: none;
+}
+
+.Reusable-Cards-Data-2{
+  border: 1px solid lightblue;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(255, 164, 164, 0.1),0px 1px 2px 0px ;
+}
+.CardsAsLink{
+  text-decoration: none;
+
+}
+
+.Reusable-Cards-Data-img{
+  border-radius: 20px;
+  width:350px;
+  object-fit: cover;
+}
+
+.WrapText{
+ margin-top:-25px;
+ padding: 10px;
+}
+
+.TitleForInsightCards{
+  color:#18399a;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.Reusable-Cards-Data-h1-Insight{
+color: black;
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.Reusable-Cards-Data-explanation{
+  color:#73777d;
+ 
+ 
+  height: 130px;
+}
+
+.Reusable-Cards-Data-Link{
+  color:#73777d;
+  font-size: 0.9rem;
+  
+}
+
+.Insight-Guide{
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.WhatIsInTheArticleInsight{
+  margin-left:100px;
+  margin-top: 100px;
+  line-height: 2rem;
+}
+
+.PointsHeading{
+  text-transform: uppercase;
+    color:#18399a;
+}
+
+
+.Points{
+  color:#73777d;
+  width: 210px;
+ margin-top:-32px;
+ margin-left: 50px;
+ font-size: 0.9rem;
+}
+.NoOfPoints{
+   margin-right: 40px;
+  color:#18399a;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.DateTimeForPoints{
+  color:#73777d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid lightgray;
+  padding: 20px;
+  width: 250px;
+}
+
+.pointsExplanationContainer{
+  position: relative;
+  top:-500px;
+  width:700px;
+  margin-left: 400px;
+ 
+}
+
+.pointsNumering{
+margin: 20px;
+border-top:1px solid lightgray;
+color:#18399a;
+font-weight: 600;
+padding-top:20px;
+}
+
+.PointsExplainedInArticle{
+  color: #73777d;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.PurposeOfPoints{
+  line-height: 2rem;
+
+}
+
+
+.Controll-For-ReadArticle{
+   position: relative;
+   top:-1200px;
+  
+  display: flex;
+  flex-direction: column;
+  background-color:#1A2440;
+  width: 1000px;
+  color: #ffffff;
+  left:140px;
+border-radius: 20px;
+  padding:0px 40px;
+}
+
+
+.TalkToAnExpertButton{
+position: relative;
+  top:-20px;
+  
+  left:600px;
+  text-decoration: none;
+  color: #0B1120;
+  background-color: #ffffff;
+  width:250px;
+  text-align: center;
+ border-radius: 20px;
+  padding:10px;}
+
+
+  .HeroSectionOfAboutUs{
+    padding-top:50px;
+    padding-left: 100px;
+    width:600px;
+  }
+
+  .AboutUsTitle{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left:20px;
+    width:300px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border:1px solid lightblue;
+  
+  }
+
+  .AboutUsHeading{
+    font-size:3rem;
+   
+  }
+
+  .AboutUsExplained{
+     color: #73777d;
+     padding-bottom:50px;
+     line-height:2rem;
+  }
+
+  .CardOfHeroSection{
+    margin-left:700px;
+    margin-top:-400px;
+  }
+
+.CardOfHeroSection{
+    background:linear-gradient(#475B79,#061a37);
+    color:white;
+    padding:20px;
+    padding-left:20px;
+    width:500px;
+    border-radius:20px;
+}
+
+.SupporterAtCard{
+  line-height:2rem;
+}
+
+.WrapIconOfCard{
+  display:grid;
+  grid-template-columns:repeat(2,1fr)
+}
+
+.IconUsedFor{
+  background-color:#475B71;
+  display:flex;
+gap:10px;
+  width: 200px;
+  padding:10px;
+  border-radius:20px;
+}
+
+.WhoAreWe{
+margin-left:100px;
+padding-top:100px;
+}
+
+.WhoWeeAre{
+  color: #042886;
+  text-transform:uppercase;
+}
+
+.HowWeManage{
+  font-size:3rem
+}
+
+.WhatWeDo{
+  font-size:1.2rem;
+  color: #73777d;
+  padding-bottom:100px;
+}
+
+.HandlingPointsAboutUs{
+  margin-left:100px;
+  display:flex;
+  flex-direction:row;
+  padding:30px;
+  gap:100px;
+  margin-bottom:50px;
+  border-top:1px solid lightgray;
+  border-bottom:1px solid lightgray;
+}
+
+.numberingPointsAboutUs{
+
+  font-size:1.5rem;
+  font-weight:700;
+  margin-top:40px;
+  color: #042886;
+  padding-right:40px;
+}
+
+.IconsOfPoints{
+ color:white;
+ width:50px;
+ height:50px;
+ padding:5px;
+ background-color:#042886;
+ border-radius:40px;
+}
+
+.PointsHeadingAboutUs{
+  display:grid;
+  grid-template-columns:repeat(1fr,1)
+}
+
+.PointsDefinedAboutUs{
+  font-size:1.2rem;
+  line-height:2rem;
+  padding-right:50px;
+  color: #73777d;
+}
+
+.WraperWhatWEOffer{
+  display:flex;
+  flex-direction:row;
+  margin-left:500px;
+  margin-top:-130px;
+  gap:70px;
+
+}
+
+.WhatWEOffer{
+  background-color:whitesmoke;
+  padding:10px;
+  border-radius:20px;
+  text-transform:uppercase;
+  font-size:0.8rem;
+  box-shadow: 0px 1px 3px 0px rgba(255, 164, 164, 0.1),0px 1px 2px 0px ; 
+}
+
+.WhatWeDoexplianed{
+  color:#73777d;
+  font-size:1.2rem;
+  width:700px;
+  line-height:2rem;
+}
+
+.ServicesLinkOnAboutUs{
+  position: relative;
+  text-decoration:none;
+   background-color:#1A2440;
+   color:white;
+   padding:10px;
+   border-radius:20px;
+   left:800px;
+   top:-80px;
+   
+}
+
+   .Reusable-Cards-Data-icons-Of-AboutUs{
+    margin-left:0px;
+    color: #2141a0;
+   
+   }
+
+   .CardAsLink-AboutUs{
+    text-decoration:none;
+    color:black;
+   }
+
+   .WhyUs-AboutUs{
+    margin-left:100px;
+    margin-top:100px;
+   }
+
+   .spanDiv-AboutUs{
+    display:flex;
+    margin-top:30px;
+    gap:15px;
+   }
+
+   .WhyUsp1{
+    text-transform:uppercase;
+     color: #042886;
+   }
+
+   .WhyUsh1{
+    font-size:3rem;
+   }
+
+   .WhyUsp2{
+    color: #73777d;
+    font-size:1.2rem;
+    width:400px;
+    line-height:2rem;
+   }
+
+   .WhyUsExperience{
+    background-color:whitesmoke;
+    padding:10px 25px;
+    border-radius:20px;
+    border:1px solid lightblue;
+    height:100px;
+    
+   }
+
+   .WhyUsProjects{
+    background-color:whitesmoke;
+    padding:10px 25px;
+    border-radius:20px;
+    border:1px solid lightblue;
+    height:100px;
+   }
+
+   .YearsOfExperience{
+    font-size:1.4rem;
+    font-weight:700;
+    margin-top:10px;
+    color:#042886;
+   }
+
+   .NumbersofProjects{
+    font-size:1.4rem;
+    font-weight:700;
+    margin-top:10px;
+    color:#042886;
+   }
+
+   .Card1-WhyUs{
+    margin-top:-350px;
+    margin-left:600px;
+    border:1px solid lightgray;
+    padding:30px 25px;
+    width:600px;
+    border-radius:20px;
+
+   }
+
+    .Card2-WhyUs{
+     margin-left:600px;
+     margin-top:30px;
+    border:1px solid lightgray;
+    padding:30px 25px;
+    width:600px;
+    border-radius:20px;
+
+   }
+
+   .WhyUs-Card-Paragraph{
+    color: #73777d;
+    line-height:1.7rem;
+   }
+
+   .WhyUs-Card-Icon{
+color:#ffffff;
+background-color:rgb(15, 39, 99);
+padding:10px;
+border-radius:30px;
+   }
+
+
+
+   .ProductSpotlight-AboutUs{
+    width:500px;
+    margin-top:-150px;
+    margin-left:750px;
+    padding-right:20px;
+   }
+
+   .EmptyDiv{
+   position: relative;
+   top:210px;
+   margin-left:100px;
+    background-color:whitesmoke;
+    padding-left:30px;
+    padding-top:20px;
+    height:320px;
+    width:600px;
+    border-radius:20px;
+    border:1px solid lightblue;
+   }
+
+   .EmptyDivh1{
+    width:300px;
+    color: #042886;
+   }
+
+   .nullDiv{
+    background-color:white;
+   
+    padding:20px;
+    width:95%;
+    border-radius:20px;
+    border:1px solid lightblue;
+   }
+
+   .emptyp1{
+    height:12px;
+    background-color: #a4e2e2;
+    border-radius:20px;
+    width:70%;
+   }
+
+   .emptyp2{
+    height:12px;
+    background-color: #a4e2e2;
+    border-radius:20px;
+    width:90%;
+   }
+
+   .emptyp3{
+    height:12px;
+    background-color: #a4e2e2;
+    border-radius:20px;
+    width:80%;
+   }
+
+   .ProductSpotlight2-AboutUs{
+    width:500px;
+    margin-left:100px;
+   }
+ 
+   .EmptyDiv2{
+   position: relative;
+    top:-430px;
+   margin-left:610px;
+    background-color:whitesmoke;
+    padding-left:30px;
+    padding-top:20px;
+    height:320px;
+    width:600px;
+    border-radius:20px;
+    margin-right:40px;
+    border:1px solid lightblue;
+   }
+   
+    .Reusable-Cards-Data-wraper-AboutUs-Cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    margin-top:-320px;
+    padding: 100px;
+    padding-right:150px;
+    gap: 40px;
+   }
+
+   .WrapCardsOfCarrer{
+    margin-top:100px;
+    margin-left:100px;
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+   }
+
+   .CardsAsLink-Carrer{
+    text-decoration:none;
+   }
+
+   .ContainCardsOfCarrer{
+    color:black;
+    border:1px solid lightgray;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:5px;
+    border-radius:20px;
+    width:90%;
+    height:200px;
+   }
+
+   .wrapLinksCarrer{
+    margin-top:-150px;
+    margin-left:550px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+  
+   }
+
+   .TitleOfCards-Carrer{
+    color:#103393;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+   }
+
+   .paragraphOfCards-Carrer{
+    color:#83878d;
+    width:650px;
+   }
+
+   .linksCarrer{
+      color:rgb(73, 163, 193);
+      background-color:rgb(231, 247, 253) ;
+      padding: 4px;
+      text-align: center;
+     margin-right: 8px;
+     margin-top: 5px;
+     border-radius: 20px;
+   }
+
+   .icons{
+    margin-left:-2px;
+    margin-right:4px;
+   }
+
+   .Carrer-Guide{
+  background: whitesmoke;
+  padding-top:5px;
+  margin-left:100px;
+  margin-right:75px;
+  height:240px;
+  padding-bottom: 20px;
+  margin-top: 200px;
+  border-radius: 20px;
+  border:1px solid lightgray;
+}
+
+
+.Guide-Paragraph-Carrer{
+  font-size: 1.2rem;
+  width:730px;
+  text-align: center;
+  margin-left:150px;
+  color:#80848d;
+}
+
+.Guide-Header-Carrer{
+  margin-left:-30px;
+  text-align: center;
+}
+
+.Guide-Link-Carrer{
+  position: relative;
+  text-decoration: none;
+  color:white;
+  background-color:#061a37;
+  padding: 10px;
+  margin-left: 450px;
+  top:20px;
+  border-radius: 20px;
+}
+
+.Container-ForLinks-CarrerCard{
+    display: flex;
+    gap:30px;
+    padding-top:50px;
+
+   }
+
+   .ContainerIntro-Ofrole{
+    padding-left:100px;
+    background:linear-gradient(#17264b,#162943);
+    color: white;
+    padding-bottom: 40px;
+   }
+
+   .Line-about-CarrerCard{
+    margin-top:0px;
+    background-color:rgb(51, 61, 103);
+    padding: 3px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+   }
+   
+   .TitleCardOfCareer{
+      text-transform: uppercase;
+   
+    color:#66bfbe;
+   }
+  
+   .HeadingCardOfCareer{
+    font-size: 3rem;
+   }
+    
+   .paragraphCardOfCareer{
+    font-size: 1.2rem;
+    color: #80848d;
+   }
+
+   .Wraper-OfCarrer-Card-Icons{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+   }
+
+   .Icons-CarrerCard{
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+    background-color:rgb(51, 61, 103);
+    padding: 6px;
+    border-radius: 20px;
+   }
+
+   .Guide-Link-CarrerCard{
+    position: relative;
+    top:10px;
+    text-decoration: none;
+    color: white;
+     background-color:rgb(51, 61, 103);
+     padding: 10px 40px;
+     border-radius: 20px;
+   }
+
+   .AboutTheRole-CarrerCard{
+    margin-left: 100px;
+    margin-top:100px;
+   }
+
+   .paragraph-About-The-Role{
+    font-size: 1.2rem;
+    width:800px;
+    line-height: 2rem;
+    color:#83878d;
+   }
+
+   .OurConditions{
+    margin-left:100px;
+    line-height: 2rem;
+   }
+
+   .terms-OurConditions{
+    margin-left:20px;
+    color:#73777d;
+    width:700px;
+   }
+
+   .ApplyCard{
+    background-color: whitesmoke;
+    width:320px;
+    height: 290px;
+    padding: 20PX;
+    margin-left:880px;
+    margin-top: -850px;
+    border-radius: 20px;
+    border:1px solid lightblue;
+   }
+   
+   .ApplyHere{
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+   }
+
+   .Guide-Link-ApplyCard{
+    background-color: #042886;
+    width:280px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration:none;
+    border-radius:20px;
+   }
+
+   .Controll-Height-Consultation-Carrer .Get-In-Touch{
+    top:650px;
    }
 
    
+   .Controll-Height-LastSection-Carrer .LastSection-container{
+     
+    position: relative;
+    top:750px;
+   }
+
+   .Section-DropDown{
+    position: absolute;
+    background-color: #061a37;
+    width:109%;
+    margin-left:-370px;
+    top:65px;
+    padding:50px;
+    color: white;
+    font-size: 0.9rem;
+
+   }
+
+   .Drop-down-Cotainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+   }
+
+   .DropDown2{
+    margin-left:-50px;
+   }
+
+   .Heading-DropDown{
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+   }
+
+  .intro-DropDown{
+    color: #73777d;
+  }
+
+
+  .Solution-dropDown{
+    display: flex;
+    flex-direction: row;
+    gap:240px;
+    color: #73777d;
+    margin-top:70px;
+    font-size: 1rem;
+  }
+
+  .DropDown-Links{
+    text-decoration: none;
+    color: white;
+    margin-top:4px;
+    background-color: #28365f;
+    padding: 5px 15px;
+    height: 33px;
+    border-radius: 20px;
+  }
+
+  .OurTeam-link1{
+    margin-top:200px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color:#1A2440;
+  padding: 10px 20px;
+  border-radius: 20px;
+  }
+
+  .OurTeam-paragraph2{
+  position: absolute;
+  width:720px;
+  font-size: 1.2rem;
+  color: #80848d;
+  line-height: 1.8rem;
+  top:120px;
+}
+
+
+.PositionOurTeam{
+color: #103393;
+}
+
+.OurTeam-Wraper-container{
+  position: relative;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+flex-direction: column;
+top:50px;
+gap:-30px;
+padding-bottom: 70px;
+margin-right: 70px;
+
+}
+
+.LeaderInfo{
+  position: relative;
+  border: 1px solid #ccc;
+ position: relative;
+ left:100px;
+
+  background: white;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  border-radius:10px;
+  border: 3px solid #E3E6E8;
+}
+
+.OurTeam-pics{
+height:100%;
+width:290px;
+object-fit: cover;
+ }
+
+ .LinkedIn-OurTeam{
+  position: absolute;
+  top:320px;
+  height: 40px;
+  width: 40px;
+  color:#142654;
+  
+ }
+
+ .container-ourTeam{
+ text-transform: uppercase;
+ color: #103393;
+ margin-top:100px;
+ margin-left:100px;
+ 
+ }
+
+ .card-p-OurTeam{
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+ }
+
+ .Card-h3{
+  padding-top: 20px;
+ }

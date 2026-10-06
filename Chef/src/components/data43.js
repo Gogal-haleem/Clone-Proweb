@@ -1,0 +1,6 @@
+export default [
+    {pointno:"01", heading:"Protect identities first", paragraph:"Compromised accounts are a common path into business systems. Multi-factor authentication, strong access policies, separate administrator accounts, and prompt removal of former users reduce this risk significantly."},
+    {pointno:"02", heading:"Keep devices and applications current", paragraph:"Unsupported software and delayed patches leave known weaknesses available to attackers. Maintain an asset register, apply updates consistently, and use endpoint protection that is actively monitored."},
+    {pointno:"03", heading:"Prepare for recovery", paragraph:"Backups should be automated, protected from normal user accounts, and tested through real recovery exercises. A backup that has never been restored is not yet a dependable recovery plan."},
+    {pointno:"04", heading:"Make security an operating discipline", paragraph:"Someone must be accountable for alerts, access reviews, vendor risk, staff awareness, and incident response. Document who makes decisions and how the business will communicate if an incident occurs.", purpose:"Strong foundations do not remove every risk, but they make attacks harder, improve detection, and help the business recover with less disruption."},
+]
