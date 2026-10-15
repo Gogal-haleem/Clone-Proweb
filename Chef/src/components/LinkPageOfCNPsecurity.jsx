@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import Header from "./Header"
-import CNP from "./CNp.png"
+import CNP from "./CNP.png"
 import Consultation from "./Consultation"
 import LastSection from "./LastSection"
 

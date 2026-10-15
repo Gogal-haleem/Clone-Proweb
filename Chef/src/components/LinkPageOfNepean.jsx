@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import Header from "./Header"
-import Nepean from "./Np.png"
+import Nepean from "./NP.png"
 import Consultation from "./Consultation"
 import LastSection from "./LastSection"
 
