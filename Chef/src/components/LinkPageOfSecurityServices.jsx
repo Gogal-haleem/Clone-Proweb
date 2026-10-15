@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 import Header from "./Header"
-import SecurityService from "./Ir.png"
+import SecurityService from "./IR.png"
 import Consultation from "./Consultation"
 import LastSection from "./LastSection"
 

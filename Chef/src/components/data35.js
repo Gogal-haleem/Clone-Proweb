@@ -13,7 +13,7 @@ import AC from "./AC.png"
 import CarrerRise from "./CR.png"
 import ComertialKitchen from "./CK.png"
 import IdealCover from "./IdealCover.png"
-import SecurityService from "./Ir.png"
+import SecurityService from "./IR.png"
 
 
 export default [
